@@ -1,146 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy for IB-BIM Apps</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-        }
-        .info-box {
-            background-color: #e8f4f8;
-            border-left: 4px solid #3498db;
-            padding: 15px;
-            margin: 20px 0;
-        }
-        .contact {
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 30px;
-        }
-        .date {
-            color: #7f8c8d;
-            font-style: italic;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | מדיניות פרטיות - IB-BIM Apps</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 850px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    h1 {
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 8px;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #34495e;
+      margin-top: 30px;
+    }
+    .info-box {
+      background-color: #e8f4f8;
+      border-left: 4px solid #3498db;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .contact {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 30px;
+    }
+    .date {
+      color: #7f8c8d;
+      font-style: italic;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      float: right;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    .hebrew {
+      direction: rtl;
+      text-align: right;
+      display: none;
+    }
+    .english {
+      direction: ltr;
+      display: block;
+    }
+    hr {
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy for Get Linked IDs</h1>
-        <p class="date"><strong>Effective Date:</strong> November 2024 | <strong>Last Updated:</strong> November 2024</p>
+  <div class="container">
+    <button onclick="toggleLanguage()">עברית / English</button>
 
-        <div class="info-box">
-            <strong>Quick Summary:</strong> Get Linked IDs does NOT collect, store, or transmit any personal or project data. All operations are performed locally within your Revit environment.
-        </div>
+    <!-- English Section -->
+    <div id="english" class="english">
+      <h1>Privacy Policy for IB-BIM Applications</h1>
+      <p class="date"><strong>Effective Date:</strong> November 2024 | <strong>Last Updated:</strong> November 2024</p>
 
-        <h2>Overview</h2>
-        <p>Get Linked IDs ("the Add-in") is committed to protecting your privacy. This Privacy Policy explains our data practices for the Get Linked IDs add-in for Autodesk Revit.</p>
+      <div class="info-box">
+        <strong>Quick Summary:</strong> IB-BIM Applications do NOT collect, store, or transmit any personal, usage, or project data. All operations are performed locally within Autodesk Revit.
+      </div>
 
-        <h2>Information We Collect</h2>
-        <p><strong>We do not collect any information.</strong> The Add-in operates entirely within your local Revit environment and does not:</p>
-        <ul>
-            <li>Collect personal information</li>
-            <li>Track usage statistics</li>
-            <li>Store project data</li>
-            <li>Access network connections</li>
-            <li>Transmit any data externally</li>
-        </ul>
+      <h2>Overview</h2>
+      <p>IB-BIM develops Revit Add-ins designed to improve project workflows while respecting your privacy. All IB-BIM applications operate entirely within your local Revit environment and do not require or access any external data sources.</p>
 
-        <h2>How the Add-in Works</h2>
-        <ul>
-            <li>All operations are performed locally within Revit</li>
-            <li>Element IDs are displayed only in the application dialog</li>
-            <li>Copied data goes directly to your system clipboard</li>
-            <li>No data leaves your computer</li>
-        </ul>
+      <h2>Information We Collect</h2>
+      <p><strong>No data is collected.</strong> IB-BIM Apps do not:</p>
+      <ul>
+        <li>Collect personal or identifying information</li>
+        <li>Track user behavior or usage statistics</li>
+        <li>Store project data or model elements externally</li>
+        <li>Access or transmit information over the Internet</li>
+      </ul>
 
-        <h2>Third-Party Services</h2>
-        <p>The Add-in does not integrate with or send data to any third-party services, including:</p>
-        <ul>
-            <li>Analytics platforms</li>
-            <li>Advertising networks</li>
-            <li>Cloud storage services</li>
-            <li>External databases</li>
-        </ul>
+      <h2>How the Apps Work</h2>
+      <ul>
+        <li>All operations occur entirely within Autodesk Revit</li>
+        <li>Temporary data (if any) exists only during the current Revit session</li>
+        <li>No data is shared, uploaded, or stored externally</li>
+      </ul>
 
-        <h2>Data Storage</h2>
-        <ul>
-            <li>No data is stored by the Add-in</li>
-            <li>No cookies or tracking technologies are used</li>
-            <li>No cache files are created</li>
-            <li>All operations exist only during the active Revit session</li>
-        </ul>
+      <h2>Third-Party Services</h2>
+      <p>IB-BIM Applications do not connect to or share data with any third-party services, including:</p>
+      <ul>
+        <li>Analytics or telemetry platforms</li>
+        <li>Advertising or marketing systems</li>
+        <li>External databases or cloud storage</li>
+      </ul>
 
-        <h2>Children's Privacy</h2>
-        <p>The Add-in does not knowingly collect information from children under 13 years of age.</p>
+      <h2>Data Storage</h2>
+      <ul>
+        <li>No persistent data is stored</li>
+        <li>No cookies or trackers are used</li>
+        <li>All temporary files (if generated) are removed when Revit closes</li>
+      </ul>
 
-        <h2>Security</h2>
-        <p>Since no data is collected or transmitted, there are no security risks related to data breaches. The Add-in runs entirely within Revit's secure environment.</p>
+      <h2>Children’s Privacy</h2>
+      <p>IB-BIM Applications are intended for professional use and do not collect or store information from anyone, including children under 13 years of age.</p>
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date above.</p>
+      <h2>Security</h2>
+      <p>Since IB-BIM Apps do not transmit or store data, there are no privacy or data breach risks. All operations are performed inside Revit’s secure environment.</p>
 
-        <h2>Your Rights</h2>
-        <p>As we do not collect any personal data:</p>
-        <ul>
-            <li>There is no data to access, modify, or delete</li>
-            <li>No consent is required for data processing</li>
-            <li>No opt-out mechanisms are necessary</li>
-        </ul>
+      <h2>Changes to This Policy</h2>
+      <p>This Privacy Policy may be updated occasionally. Any updates will be reflected in the “Last Updated” date above.</p>
 
-        <h2>Compliance</h2>
-        <p>This Add-in complies with:</p>
-        <ul>
-            <li>General Data Protection Regulation (GDPR)</li>
-            <li>California Consumer Privacy Act (CCPA)</li>
-            <li>Other applicable privacy laws</li>
-        </ul>
+      <h2>Contact</h2>
+      <p>If you have questions about this Privacy Policy or any IB-BIM Application, please contact:</p>
+      <div class="contact">
+        <p><strong>Developer:</strong> Itzik Bejarano<br>
+        <strong>Email:</strong> <a href="mailto:itzikb.revit.dev@gmail.com">itzikb.revit.dev@gmail.com</a><br>
+        <strong>Location:</strong> Israel</p>
+      </div>
 
-        <div class="contact">
-            <h2>Contact Information</h2>
-            <p>If you have any questions about this Privacy Policy or the Add-in, please contact:</p>
-            <p>
-                <strong>Developer:</strong> Itzik Bejarano<br>
-                <strong>Email:</strong> <a href="mailto:itzikb.revit.dev@gmail.com">itzikb.revit.dev@gmail.com</a><br>
-                <strong>Location:</strong> Israel
-            </p>
-        </div>
+      <h2>Compliance</h2>
+      <ul>
+        <li>General Data Protection Regulation (GDPR)</li>
+        <li>California Consumer Privacy Act (CCPA)</li>
+        <li>Other relevant privacy regulations</li>
+      </ul>
 
-        <h2>Autodesk Platform</h2>
-        <p>This Add-in is distributed through the Autodesk App Store and complies with Autodesk's privacy requirements. For information about Autodesk's privacy practices, please visit <a href="https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement" target="_blank">Autodesk's Privacy Statement</a>.</p>
+      <h2>Autodesk Platform</h2>
+      <p>All IB-BIM Add-ins are distributed via the Autodesk App Store and comply with Autodesk’s privacy and data security standards. Learn more at 
+        <a href="https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement" target="_blank">Autodesk Privacy Statement</a>.
+      </p>
 
-        <hr style="margin-top: 50px;">
-        <p style="text-align: center; color: #7f8c8d;">© 2024 Itzik Bejarano. All rights reserved.</p>
+      <hr>
+      <p style="text-align:center; color:#7f8c8d;">© 2024 IB-BIM | Developed by Itzik Bejarano. All rights reserved.</p>
     </div>
+
+    <!-- Hebrew Section -->
+    <div id="hebrew" class="hebrew">
+      <h1>מדיניות פרטיות – אפליקציות IB-BIM</h1>
+      <p class="date"><strong>תאריך תחולה:</strong> נובמבר 2024 | <strong>עודכן לאחרונה:</strong> נובמבר 2024</p>
+
+      <div class="info-box">
+        <strong>תקציר:</strong> אפליקציות IB-BIM אינן אוספות, שומרות או מעבירות מידע אישי, נתוני שימוש או נתוני פרויקטים. כל הפעולות מתבצעות מקומית בסביבת Autodesk Revit.
+      </div>
+
+      <h2>סקירה כללית</h2>
+      <p>IB-BIM מפתחת תוספים ל-Revit לשיפור זרימת העבודה, תוך שמירה מלאה על פרטיות המשתמשים. כל האפליקציות פועלות בתוך סביבת Revit המקומית ואינן ניגשות למידע חיצוני.</p>
+
+      <h2>מידע שנאסף</h2>
+      <p><strong>לא נאסף כל מידע.</strong> האפליקציות אינן:</p>
+      <ul>
+        <li>אוספות מידע אישי</li>
+        <li>עוקבות אחרי שימוש או סטטיסטיקות</li>
+        <li>שומרות נתוני פרויקטים</li>
+        <li>מתחברות לאינטרנט או מעבירות מידע</li>
+      </ul>
+
+      <h2>אופן הפעולה</h2>
+      <ul>
+        <li>כל הפעולות מתבצעות בתוך סביבת Revit</li>
+        <li>מידע זמני (אם נוצר) נמחק עם סיום הסשן</li>
+        <li>אין אחסון או שיתוף נתונים חיצוני</li>
+      </ul>
+
+      <h2>שירותים חיצוניים</h2>
+      <p>האפליקציות אינן מתקשרות עם שירותים חיצוניים כגון:</p>
+      <ul>
+        <li>פלטפורמות אנליטיקה</li>
+        <li>מערכות פרסום</li>
+        <li>מאגרי נתונים חיצוניים</li>
+      </ul>
+
+      <h2>אבטחה</h2>
+      <p>מאחר שאין העברת נתונים, לא קיים סיכון לדליפת מידע. כל הפעולות נעשות בסביבה מאובטחת של Autodesk Revit.</p>
+
+      <h2>צור קשר</h2>
+      <div class="contact">
+        <p><strong>מפתח:</strong> איציק בוז’ראנו<br>
+        <strong>דוא"ל:</strong> <a href="mailto:itzikb.revit.dev@gmail.com">itzikb.revit.dev@gmail.com</a><br>
+        <strong>מיקום:</strong> ישראל</p>
+      </div>
+
+      <hr>
+      <p style="text-align:center; color:#7f8c8d;">© 2024 IB-BIM | פיתוח: איציק בוז’ראנו. כל הזכויות שמורות.</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleLanguage() {
+      const en = document.getElementById('english');
+      const he = document.getElementById('hebrew');
+      if (en.style.display === 'none') {
+        en.style.display = 'block';
+        he.style.display = 'none';
+      } else {
+        en.style.display = 'none';
+        he.style.display = 'block';
+      }
+    }
+  </script>
 </body>
 </html>
